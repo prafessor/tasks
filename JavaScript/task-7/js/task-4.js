@@ -1,6 +1,5 @@
 const form = document.querySelector('.login-form');
 
-console.log(form);
 const handleFormSubmit = evt => {
   evt.preventDefault();
   const email = evt.currentTarget.elements.email.value.trim();
