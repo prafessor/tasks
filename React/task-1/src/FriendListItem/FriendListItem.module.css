@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.img {
+
+}
+
+.name {
+    font-size: 20px;
+}
+
+.status.online {
+    color: #259024;
+}
+.status.offline {
+    color: #ff0000;
+}

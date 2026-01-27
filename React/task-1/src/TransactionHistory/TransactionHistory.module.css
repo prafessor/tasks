@@ -1,0 +1,21 @@
+.table {
+    width: 400px;
+    margin: 50px auto;
+    border: 1px solid #373737;
+
+    border-collapse: collapse;
+}
+
+.header {
+    background-color: #2a2a2a;
+
+    color: #ffffff;
+}
+
+.col {
+    border: 1px solid #373737;
+}
+
+.row:nth-of-type(even) {
+    background-color: #d3d3d3;
+}
