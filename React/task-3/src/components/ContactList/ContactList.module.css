@@ -1,0 +1,17 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    min-width: 200px;
+    width: calc((100% - 40px) / 3);
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
