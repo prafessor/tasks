@@ -1,0 +1,34 @@
+.header {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    
+    background-color: #3747ac;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    height: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+
+    display: flex;
+}
+
+.input {
+    border: none;
+    padding-left: 10px;
+
+    background-color: transparent;
+}
+.input:focus {
+    outline: none;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+
+    order: -1;
+}
