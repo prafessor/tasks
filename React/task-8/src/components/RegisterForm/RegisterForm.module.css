@@ -1,0 +1,16 @@
+.form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    width: 100%;
+}

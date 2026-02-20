@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    gap: 20px;
+}
+.link {
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link_active {
+    color: #8f8f8f;
+}
